@@ -1,0 +1,27 @@
+{
+  "name": "realtime-collab-platform",
+  "version": "1.0.0",
+  "description": "A modern, lightweight real-time collaboration platform similar to Google Docs",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "npm run test --workspaces",
+    "dev": "npm run dev --workspaces --if-present",
+    "build": "npm run build --workspaces",
+    "lint": "npm run lint --workspaces"
+  },
+  "keywords": [
+    "realtime",
+    "collaboration",
+    "document-editing",
+    "websocket"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.13.1",
+    "npm": ">=10.0.0"
+  }
+}
